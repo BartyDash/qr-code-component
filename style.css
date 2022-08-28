@@ -1,11 +1,32 @@
 html {
-    box-sizing: border-box;
-  }
-  
-  *,
-  *:before,
-  *:after {
-    box-sizing: inherit;
-  }
+  box-sizing: border-box;
+}
 
-  
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.main {
+    background: hsl(220, 15%, 55%);
+}
+
+.qr-code {
+    background: hsl(0, 0%, 100%);
+    width: 400px;
+}
+
+.qr-code__image {
+}
+
+.qr-code__heading {
+    color: hsl(218, 44%, 22%);
+}
+
+.qr-code__description {
+  color: hsl(212, 45%, 89%);
+}
+
+.footer {
+}
