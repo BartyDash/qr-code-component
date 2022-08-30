@@ -9,15 +9,21 @@ html {
 }
 
 .main {
-    background: hsl(220, 15%, 55%);
+    background: hsl(212, 45%, 89%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .qr-code {
     background: hsl(0, 0%, 100%);
     width: 400px;
+    margin: 60px;
+    padding: 16px;
 }
 
 .qr-code__image {
+  width: 100%;
 }
 
 .qr-code__heading {
@@ -25,7 +31,8 @@ html {
 }
 
 .qr-code__description {
-  color: hsl(212, 45%, 89%);
+  color: hsl(220, 15%, 55%);
+  font-size: 15px;
 }
 
 .footer {
