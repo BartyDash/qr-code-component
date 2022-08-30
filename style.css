@@ -8,32 +8,52 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  background: hsl(212, 45%, 89%);
+}
+
 .main {
-    background: hsl(212, 45%, 89%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
 }
 
 .qr-code {
-    background: hsl(0, 0%, 100%);
-    width: 400px;
-    margin: 60px;
-    padding: 16px;
+  background: hsl(0, 0%, 100%);
+  width: 320px;
+  margin: 80px;
+  padding: 16px;
+  border-radius: 24px;
+  font-family: Outfit;
+  text-align: center;
 }
 
 .qr-code__image {
   width: 100%;
+  border-radius: 12px;
+}
+
+.qr-code__info {
+  padding: 0 16px 16px 16px;
 }
 
 .qr-code__heading {
-    color: hsl(218, 44%, 22%);
+  color: hsl(218, 44%, 22%);
+  font-size: 22px;
+  font-weight: 700;
 }
 
 .qr-code__description {
   color: hsl(220, 15%, 55%);
   font-size: 15px;
+  font-weight: 400;
 }
 
 .footer {
+  height: 60px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin: 0 auto;
 }
