@@ -10,6 +10,12 @@ html {
 
 body {
   background: hsl(212, 45%, 89%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  flex-direction: column;
+  overflow: hidden;
 }
 
 .main {
@@ -17,12 +23,12 @@ body {
   align-items: center;
   justify-content: center;
   height: auto;
+  flex: 1;
 }
 
 .qr-code {
   background: hsl(0, 0%, 100%);
   width: 320px;
-  margin: 80px;
   padding: 16px;
   border-radius: 24px;
   font-family: Outfit;
@@ -51,9 +57,5 @@ body {
 }
 
 .footer {
-  height: 60px;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  margin: 0 auto;
+  height: 40px;
 }
